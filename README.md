@@ -1,4 +1,4 @@
-# Diseño e implementación de una base de datos espacial para la gestión del inventario arbóreo y la estimación del carbono almacenado en el campus Omar Dengo, UNA
+# Diseño e implementación de una base de datos espacial para la gestión del inventario arbóreo y la estimación del carbono almacenado en el Campus Omar Dengo, UNA
 
 **Adrián Delgado Torres**  
 Programa de Posgrado en Sistemas de Información Geográfica y Teledetección  
@@ -31,7 +31,7 @@ donde *E* son las emisiones totales, *R* son las reducciones internas y *C* son 
 ![Mapa de sedes institucionales de la UNA en Costa Rica](img/mapa_sedes_UNA.jpg)  
 *Mapa 1. Sedes institucionales de la Universidad Nacional en Costa Rica. Fuente: elaboración propia.*
 
----
+
 
 ## El problema
 
@@ -47,7 +47,7 @@ Ante esta situación, la investigación busca responder la siguiente pregunta:
 
 > *¿Cómo puede la UNA superar las limitaciones de un inventario manual y fragmentado, garantizando la integridad de los datos, reduciendo los errores de campo y optimizando la generación de análisis y reportes mediante la implementación de una geodatabase y formularios digitales integrados?*
 
----
+
 
 ## Justificación
 
@@ -65,7 +65,7 @@ Esta solución no solo responde a una necesidad operativa, sino que reafirma el 
 ![Distribución del inventario arbóreo en el campus Omar Dengo](img/mapa_arboles_omar_dengo.jpg)  
 *Mapa 2. Distribución de los árboles del inventario de remociones del Campus Omar Dengo, UNA. Fuente: elaboración propia.*
 
----
+
 
 ## Objetivos
 
@@ -78,7 +78,7 @@ Sistematizar la información del inventario arbóreo del campus Omar Dengo de la
 1. Estructurar los datos mediante SQL para organizar y gestionar de manera integral el inventario arbóreo, permitiendo la captura y actualización de información del inventario de remociones de carbono.
 2. Construir instrumentos digitales utilizando tecnología licenciada (ArcGIS Survey123 / Field Maps) para la recolección estandarizada de datos dendrométricos georreferenciados, facilitando la actualización anual y la verificación en sitio frente a registros históricos.
 
----
+
 
 ## Marco teórico
 
@@ -106,7 +106,7 @@ En el contexto del inventario arbóreo, la geodatabase permite registrar **serie
 
 La captura de datos en campo se potencia con aplicaciones móviles como [ArcGIS Survey123](https://survey123.arcgis.com) y [ArcGIS Field Maps](https://www.esri.com/en-us/arcgis/products/arcgis-field-maps/overview), integradas con receptores GNSS de alta precisión. Estas herramientas permiten recolectar datos normalizados, aplicar validaciones automáticas y adjuntar fotografías, asegurando calidad desde la fuente.
 
----
+
 
 ## Descripción de los datos y sus principales variables
 
@@ -128,7 +128,7 @@ El inventario arbóreo del campus Omar Dengo constituye el conjunto de datos cen
 
 Adicionalmente, el sistema incluye variables de contexto como el campus, la zona dentro del campus, el técnico responsable del levantamiento y metadatos de calidad posicional (precisión horizontal, PDOP, tipo de fix GNSS).
 
----
+
 
 ## Problemas a resolver y preguntas de investigación
 
@@ -141,7 +141,6 @@ El proyecto busca responder las siguientes preguntas con los datos geoespaciales
 5. **¿Qué tan confiables son los datos actuales** en términos de calidad posicional y consistencia de atributos, comparados con los estándares ISO 19157?
 6. **¿Es posible automatizar completamente** el cálculo de biomasa y carbono dentro de la geodatabase, eliminando la dependencia de hojas de cálculo externas?
 
----
 
 ## Referencias bibliográficas
 
